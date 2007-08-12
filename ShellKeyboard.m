@@ -45,7 +45,7 @@
 
 - (void) show:(ShellView*)shellView
 {
-  [shellView setBottomBufferHeight:(5.0f)];
+//  [shellView setBottomBufferHeight:(5.0f)];
 
   [shellView setFrame:CGRectMake(0.0f, 0.0f, 320.0f, 245.0f)];
   [self setTransform:CGAffineTransformMake(1,0,0,1,0,0)];
@@ -63,7 +63,7 @@
 
 - (void) hide:(ShellView*)shellView
 {
-  [shellView setBottomBufferHeight:(70.0f)];
+//  [shellView setBottomBufferHeight:(70.0f)];
 
   struct CGRect rect = [UIHardware fullScreenApplicationContentRect];
   rect.origin.x = rect.origin.y = 0.0f;
